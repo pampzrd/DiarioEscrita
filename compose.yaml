@@ -1,0 +1,7 @@
+﻿services:
+  diarioescrita:
+    image: diarioescrita
+    build:
+      context: .
+      dockerfile: Dockerfile
+
