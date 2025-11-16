@@ -12,5 +12,11 @@ public class DiarioDados
     public string? Anotacoes { get; set; }
     public UInt16 MetaPalavras { get; set; }
     public UInt16? TotalPalavras { get; set; }
+
+    public DiarioDados(DateOnly dataEntrada, UInt16 metaPalavras)
+    {
+        DataEntrada = dataEntrada;
+        MetaPalavras = metaPalavras;
+    }
     
 }
